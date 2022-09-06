@@ -1,7 +1,6 @@
-
 # pbd-ephemeral-artifactory-tokens-spike
 
-This is a placeholder README.md for a new repository
+Spike output for [PBD-3725](https://jira.tools.tax.service.gov.uk/browse/PBD-3725).
 
 ### License
 
