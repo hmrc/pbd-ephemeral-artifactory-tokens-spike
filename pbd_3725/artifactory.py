@@ -40,10 +40,8 @@ class Artifactory:
     ) -> None:
         group_description = (
             "B&D API generated group for use by ephemeral access tokens. "
-            f"Allows deploy access to the {repository} repository."
+            f"Allows deploy access to the {repository} repository, filtered to '{path}'."
         )
-        if path:
-            group_description = f"{group_description} Filtered to path '{path}'."
         group_data = {
             "description": group_description,
         }
