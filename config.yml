@@ -1,0 +1,10 @@
+---
+accounts:
+ "012345678901":
+  roles:
+    foo-ec2-assumable-role:
+      permissions:
+        - repository: webstore-local
+          path: test/
+        - repository: test
+          path: "**"
